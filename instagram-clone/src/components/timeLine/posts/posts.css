@@ -21,6 +21,7 @@
 .post-headerAuthor>span {
     color: grey;
     font-size: 15px;
+    margin-right: 5px
 }
 
 .post-image>img {
@@ -28,8 +29,6 @@
     border-radius: 6px;
     border: 0.6 solid rgba(128, 128, 128, 0.516);
 }
-
-.post-footer {}
 
 .post-footerIcons {
     display: flex;
@@ -45,4 +44,12 @@
 
 .post-icon:hover {
     cursor: pointer;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.timestamp {
+    padding-left: 5px;
 }

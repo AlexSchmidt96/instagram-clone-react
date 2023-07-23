@@ -12,8 +12,10 @@ function Posts({ user, postImage, likes, timestamp }) {
         <div className="post">
             <div className="post-header">
                 <div className="post-headerAuthor">
-                    <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
-                    {user} * <span>{timestamp}</span>
+                    <span className="post-avatar">
+                        <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
+                    </span>
+                    {user} • <span className="timestamp">{timestamp}</span>
                 </div>
                 <MoreHorizeIcon />
             </div>
